@@ -37,14 +37,19 @@
     <br>
     <form action="messagePane.jsp" method="post" name="myform">
         <ul>
+            <li>图书：<select name="book">
+                    <option value="JSP程序设计教程" selected="selected">JSP程序设计教程</option>
+                    <option value="GitHub入门与实践" >GitHub入门与实践</option>
+                </select>
+            </li>
             <li>昵称：<input type="text" name="peopleName"></li>
             <li>头像：<img title="点击选择头像" height="90" src="1.jpg" width="80" border="0" name="showimages">
             <select name="pic" onchange=changeimage();>
                 <option value="1.jpg" selected="selected">默认</option>
-                <option value="2.gif" selected="selected">小女孩</option>
-                <option value="3.jpg" selected="selected">小男孩</option>
-                <option value="4.jpg" selected="selected">时尚</option>
-                <option value="6.png" selected="selected">QQ</option>
+                <option value="2.gif" >小女孩</option>
+                <option value="3.jpg" >小男孩</option>
+                <option value="4.jpg" >时尚</option>
+                <option value="6.png" >QQ</option>
             </select>
             </li>
             <li>标题：<input type="text" name="Title"></li>

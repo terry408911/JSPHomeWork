@@ -32,7 +32,7 @@
 <tittle></title>
 </head>
 <body>
-    <img src="gbook.gif"><a href="showMessage.jsp">查看评论</a>
+    <img src="gbook.gif"><a href="selectBook.jsp">查看评论</a>
     <img src="weite.gif"><a href="submit.jsp">我要评论</a>
     <br>
     <form action="messagePane.jsp" method="post" name="myform">
